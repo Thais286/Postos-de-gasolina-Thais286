@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Preços de Gasolina</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>⛽ Comparador de Gasolina ⛽</h1>
+
+    <div class="form-container">
+	    <input type="text"
+		id="nomePosto1" placeholder="Nome do Posto 1">
+		<input type="text"
+		id="nomePosto2" placeholder="Nome do Posto 2">
+		<input type="text"
+		id="nomePosto3" placeholder="Nome do Posto 3">
+		
+        <input type="number" id="posto1" placeholder="Preço Posto 1">
+        <input type="number" id="posto2" placeholder="Preço Posto 2">
+        <input type="number" id="posto3" placeholder="Preço Posto 3">
+        <button onclick="comparar()">Comparar</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
