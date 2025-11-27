@@ -1,2 +1,2 @@
 # Postos-de-gasolina-Thais286
-Projeto feito para treinar HTML,CSS e JS ,ideia de postos de gasolina e uma análise de 3 postos de gasolina e seus valores de gasolina para comparação de valores.
+Aplicação simples em HTML/CSS/JavaScript que permite ao usuário inserir o preço dos combustíveis em três postos diferentes e, ao clicar em comparar, exibe qual posto possui o menor valor eu usuário pode calcular quanto ele economiza em relação aos outros postos.
